@@ -9,12 +9,15 @@ Il me permet de conserver et d'organiser mes différents exercices afin de garde
 Les travaux sont classés dans différents dossiers :
 
 - `ds1`
+- `ds2`
 - `tp1`
 - `tp1bis`
 - `tp1ter`
 - `tp2`
 - `tp2bis`
 - `tp2ter`
+- `tp3`
+- `tp3bis`
 
 Chaque dossier correspond à un travail pratique ou à l'une de ses variantes.
 
