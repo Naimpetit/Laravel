@@ -1,28 +1,46 @@
 # Laravel – Travaux pratiques
 
-Ce dépôt regroupe les travaux pratiques que j'ai réalisés dans le cadre de mon apprentissage du développement web avec **PHP et Laravel**.
+Ce dépôt rassemble les travaux pratiques réalisés avec **PHP et Laravel** dans le cadre de mon apprentissage du développement web.
 
-Il me permet de conserver et d'organiser mes différents exercices afin de garder une trace de mon travail et de mon évolution au fil des TP.
+Chaque dossier contient une application indépendante permettant de pratiquer les routes, les contrôleurs, les vues Blade, les formulaires et les opérations avec une base de données.
 
 ## Organisation
 
-Les travaux sont classés dans différents dossiers :
+- `ds1` – Fournisseurs
+- `ds2` – Contrats
+- `tp1` – Produits
+- `tp1bis` – Magasins
+- `tp1ter` – Véhicules
+- `tp2` – Produits
+- `tp2bis` – Aliments
+- `tp2ter` – Joueurs
+- `tp3` – Commandes
+- `tp3bis` – Saisons
+- `tp3ter` – Locations
 
-- `ds1`
-- `tp1`
-- `tp1bis`
-- `tp1ter`
-- `tp2`
-- `tp2bis`
-- `tp2ter`
+## Technologies
 
-Chaque dossier correspond à un travail pratique ou à l'une de ses variantes.
+- PHP 8.2
+- Laravel 12
+- Blade
+- MySQL / MariaDB
+- Composer
+- Node.js / npm
 
-## Objectif du dépôt
+## Utilisation
 
-Ce dépôt a pour seul objectif de centraliser et d'archiver mes travaux pratiques.
+Dans un dossier de projet :
 
-Il est public afin de permettre la consultation de mon travail, notamment dans le cadre de mon parcours d'apprentissage.
+```powershell
+composer install
+npm install
+copy .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
+
+Configurer ensuite la base de données dans le fichier `.env`.
 
 ---
 
